@@ -44,6 +44,4 @@ h2 {
     height: 30px;
     width: 500px;
 }
-<script>alert("you've been hacked") </script>
-<img src =x onMouseOver=alert("you've been hacked")>
-<script>alert(document.cookies)</script>
+
