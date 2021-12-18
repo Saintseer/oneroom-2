@@ -1,0 +1,49 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Arial;
+box-sizing: border-box;    
+}
+
+body{
+    display: grid;
+    place-items: center;
+}
+table{
+    position: absolute;
+    opacity: 100;
+    width: 1000px;
+    box-shadow: -1px, 12px 12px -6px rgb(0,0,0,0.5)
+}
+table, td, th {
+    padding: 20px;
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    font-size: 18px;
+}
+
+th{
+    background-color: lightseagreen;
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color:lightskyblue;
+    color: black;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.form {
+    height: 30px;
+    width: 500px;
+}
+<script>alert("you've been hacked") </script>
+<img src =x onMouseOver=alert("you've been hacked")>
+<script>alert(document.cookies)</script>

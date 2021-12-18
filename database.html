@@ -1,0 +1,242 @@
+<!DOCTYPE html>  
+<html>  
+     <head>  
+         <!--jquery search call execution api library provided "link below"-->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+          <link rel="stylesheet" href="database.css" />  
+          <meta name = "viewport" content = "user-scalable= no, width=device-width"/>
+          <link rel = "stylesheet" href=  "css/bootstrap.css">
+     </head>  
+     <body>  
+          <br/><br/>  
+          <div style="width:1000px;">  
+               <h2 align = "center"> Here's all available tenants in our database </h2>            
+               <br /><br />  
+               <div align = "center">  
+                <input type="text" name="search" id="search" class="form"/>  
+                    <button class = "btn-a"> </button>
+               </div>  
+               <br/><br/>  
+               <div >  
+                    <table id="tenant">  
+
+        
+    <tr>  
+        <th width="5%">ID</th>  
+        <th width="25%">Name</th>  
+        <th width="35%">Address</th>  
+        <th width="10%">Gender</th>  
+        <th width="20%">contact info</th>  
+        <th width="5%">Age</th>  
+    </tr>  
+                                                
+    <tr>  
+        <td>1</td>  
+        <td>Ronald Mc-donald kochella</td>  
+        <td>15542apt rm 764 Branch Road, Barrington, IL </td>  
+        <td>Male</td>  
+        <td>(283) 342-8775</td>  
+        <td>32</td>  
+    </tr>  
+                                          
+    <tr>  
+        <td>2</td>  
+        <td>Martha Tomson</td>  
+        <td>apt4005 rm 45 Bird Spring Lane, Houston, TX 77002</td>  
+        <td>Female</td>  
+        <td>(271) 402-4823</td>  
+        <td>38</td>  
+    </tr>  
+                                                 
+    <tr>  
+        <td>3</td>  
+        <td>Cameron Barett</td>  
+        <td>Apt 5421 rm245 River Road, Colorado Springs, 80903</td>  
+        <td>Male</td>  
+        <td>camkbarnett@gmail.com</td>  
+        <td>52</td>  
+    </tr>  
+                                                 
+    <tr>  
+        <td>4</td>  
+        <td>James Foreman</td>  
+        <td>Apt43461 rm 34541 Adams st, Houston, TX 77002</td>  
+        <td>Male</td>  
+        <td> hmaburgerlover13324@gmail.com</td>  
+        <td>32</td>  
+    </tr>  
+                                                 
+    <tr>  
+         <td>5</td>  
+         <td>Dallas Jones</td>  
+         <td>2672 Broaddus Avenue, Bowling Green, KY 42103</td>  
+         <td>Male</td>  
+         <td>dallasjones2934@gmail.com</td>  
+         <td>45</td>  
+    </tr>  
+                                                  
+    <tr>  
+        <td>6</td>  
+        <td>Tricia Lohman</td>  
+        <td>2653 Courtright Street, Tacoma, WA 98403</td>  
+        <td>Female</td>  
+        <td>694-438-3495</td>  
+        <td>24</td>  
+    </tr>  
+                                                
+    <tr>  
+        <td>7</td>  
+        <td>Lee Young</td>  
+        <td>443097 Cambridge road, Cockeysville, MD 21030</td>  
+        <td>Male</td>  
+        <td>(507) 383-2205</td>  
+        <td>24</td>  
+    </tr>  
+                                                 
+    <tr>  
+        <td>8</td>  
+        <td>Melina Reza</td>  
+        <td>68 Elk Creek Road, Chamblee, GA 30341</td>  
+        <td>Female</td>  
+        <td>reza235@gmail.com</td>  
+        <td>40</td>  
+    </tr>  
+                                                
+    <tr>  
+        <td>9</td>  
+        <td>Sandra Swain</td>  
+        <td>3563 Wolf Pen Road, San Jose, CA 95134</td>  
+        <td>Female</td>  
+        <td>sandrasw41n@aol.com</td>  
+        <td>32</td>  
+    </tr>  
+                                                 
+    <tr>  
+        <td>10</td>  
+        <td>Jack sparrow</td>  
+        <td>4342 Despard Street, Tacoma, WA 98405</td>  
+        <td>Male</td>  
+        <td>thomas@yahoo.com</td>  
+        <td>47</td>  
+    </tr>  
+                                                 
+    <tr>  
+        <td>11</td>  
+        <td>Nick Gilligan</td>  
+        <td>4951 North Bend River Road, Lexington, KY 40505</td>  
+        <td>Male</td>  
+        <td>(253) 942-2784</td>  
+        <td>42</td>  
+    </tr>  
+                                                
+    <tr>  
+        <td>12</td>  
+        <td>Ronald Keefe</td>  
+        <td>4388 Goff Avenue, Grand Rapids, MI 49508</td>  
+        <td>Male</td>  
+        <td>(564) 853-2352</td>  
+        <td>22</td>  
+    </tr>  
+                                                  
+    <tr>  
+        <td>13</td>  
+        <td>William Wright</td>  
+        <td>2653 Pyramid Valley Road, Cedar Rapids, IA 52404</td>  
+        <td>Male</td>  
+        <td>(234) 696-8742</td>  
+        <td>33</td>  
+    </tr>  
+                                                  
+    <tr>  
+        <td>14</td>  
+        <td>Jarrod Jones</td>  
+        <td>3827 Bingamon Road, Garfield Heights, OH 44125</td>  
+        <td>Male</td>  
+        <td>jarrod4wizard@gmail.com</td>  
+        <td>64</td>  
+    </tr>  
+                                                
+    <tr>  
+        <td>15</td>  
+        <td>lenda Stewart</td>  
+        <td>3482327 Pursglove, Rossburg, OH 45362</td>  
+        <td>Female</td>  
+        <td>(751) 890-2143</td>  
+        <td>28</td>  
+    </tr>  
+                                                
+    <tr>  
+        <td>16</td>  
+        <td>Jack raboin</td>  
+        <td>1636 Walnut Hill Drive Cincinnati, OH 45202</td>  
+        <td>Male</td>  
+        <td>ilovelatinos291246@yahoo.com </td>  
+        <td>29</td>  
+    </tr>  
+                                                 
+    <tr>  
+        <td>17</td>  
+        <td>Antonio J </td>  
+        <td>ADT 403 RM 8753 Charlotte Avenue, NC 28208</td>  
+        <td>Male</td>  
+        <td> (648) 129-8174</td>  
+        <td>32</td>  
+    </tr>  
+                                                
+    <tr>  
+        <td>18</td>  
+        <td>Barbra Hurley</td>  
+        <td>1241 Canis Heights Drive Los Angeles, CA 90017</td>  
+        <td>Female</td>  
+        <td>qwerty693@gmail.com</td>  
+        <td>26</td>  
+    </tr>  
+                                                
+    <tr>  
+        <td>19</td>  
+        <td>Clara Gilliam</td>  
+        <td>5645 Woodridge Lane Memphis, TN 38138</td>  
+        <td>Female</td>  
+        <td>claragill13am@gmail.com</td>  
+        <td>24</td>  
+    </tr>  
+                                               
+    <tr>  
+        <td>20</td>  
+        <td>Bruce Tom</td>  
+        <td>ADT 8734 rm 3 Sherman Oaks, CA 91403</td>  
+        <td>Male</td>  
+        <td>iamthunder@gmail.com</td>  
+        <td>36</td>  
+    </tr>  
+        </table>  
+                </div>  
+                    </div>  
+        </body>  
+</html>  
+<script>  
+    $(document).ready(function(){  
+        $('#search').keyup(function(){  
+            search_table($(this).val());  
+          });  
+          function search_table(value){  
+               $('#tenant tr').each(function(){  
+                    var found = 'false';  
+                    $(this).each(function(){  
+                         if($(this).text().toLowerCase().indexOf(value.toLowerCase()) >= 0)  
+                         {  
+                              found = 'true';  
+                         }  
+                    });  
+                    if(found == 'true')  
+                    {  
+                         $(this).show();  
+                    }  
+                    else  
+                    {  
+                         $(this).hide();  
+                    }  
+               });  
+          }  
+     });  
+</script>  
